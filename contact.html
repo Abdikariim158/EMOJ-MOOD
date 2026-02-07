@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Send Your Mood</h1>
+
+<form onsubmit="return validateForm()">
+  <input type="text" id="name" placeholder="Your Name">
+  <br><br>
+  <textarea id="message" placeholder="Your Feedback"></textarea>
+  <br><br>
+  <button type="submit">Send</button>
+</form>
+
+<p id="feedback"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
